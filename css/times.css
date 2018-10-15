@@ -5,80 +5,128 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 html{
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.6;
     /*font-family: font stack required for body text */
+    font-family: K2D, arial, sans-serif;
+    background-color: hsl(270, 50%, 50%);
 }
+
 h1, h2, h3, h4{
     /*font-family: font stack required for headings */
+    font-family: 'crimson text', garamond, serif;
+    font-size:1.999em;
 }
+
 p{
     
 }
+
 .container{
-    
+    margin: auto;
+    max-width: 1500px;
+    background-color: hsl(270, 100%, 100%);
 }
+
 .subnav{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: hsl(270, 50%, 50%);
 }
+
 .subnav a{
-    
+    padding: 0rem 1rem;
+    color: hsl(150, 100%, 100%);
+
 }
+
 .mainnav{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: hsl(270, 100%, 60%);
 }
+
 .mainnav a{
-    
+    text-decoration: none;
+    color: hsl(150, 100%, 100%);
 }
+
 .masthead{
     
-}
-.times-logo{
+    color: hsl(150, 100%, 50%);
+    font-variant: small-caps;
     
+}
+
+.times-logo{
+
 }
 .masthead h1{
+    text-align: center;
     
 }
+
 .content{
+    padding: 1em;
     
 }
 .content .story{
     
 }
-.story.lead-story{
-    
+
+.story.lead-story{ 
+    font-size:1.414em;    
 }
+
+.lead-story.story h1{
+    font-size:2.827em;
+}
+
 h1.story-title{
-    
+    padding: 1em 0.5em 0em 0.5em;
 }
 .story img{
-    
+    float: right;
+    margin: auto
 }
+
 .story p{
-    
+    font-size: 1em;
+    padding: 0.85em 0.5em;
 }
+
 .story blockquote{
+    padding-left: 0.5em;
     quotes: "\201E" "\201D";
 }
+
 .story blockquote::before{
     content: open-quote;
+    
 }
 .story blockquote::after{
     content: close-quote;
 }
+
 .story p.byline{
-    
+
 }
+
 p.byline span.author{
     
 }
 p.byline span.pub{
     
 }
+
 .foot{
-    
+
 }
 .foot p{
-    
+        text-align: center;
+        font-size: 0.75em;
 }
